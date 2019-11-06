@@ -9,7 +9,7 @@ spring:
         git:
           uri: git@github.com:keyoukeyou/springcloud.git
           search-paths: configs
-          username: keyoukeyou
+          username: 729435176@qq.com
           password: ke15303763726
       label: master
 eureka:

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/native")
-public class ConfigClientHandler {
+public class NativeConfigClientHandler {
 
     @Value("${server.port}")
     private String port;

@@ -10,9 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-public class ConfigClientApplication {
+public class NativeConfigClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClientApplication.class,args);
+        SpringApplication.run(NativeConfigClientApplication.class,args);
     }
 }

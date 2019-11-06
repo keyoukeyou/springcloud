@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name:   eurekaconfigclient
+    name: configclient
 
 eureka:
   client:
