@@ -1,0 +1,59 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.idea/
+consumer/src/test/
+consumer/target/
+eurekaclient/eurekaclient.iml
+eurekaclient/src/test/
+eurekaclient/target/
+eurekaserver/eurekaserver.iml
+eurekaserver/src/test/
+eurekaserver/target/
+hystrix/hystrix.iml
+hystrix/src/test/
+hystrix/target/
+myfeign/myfeign.iml
+myfeign/src/test/
+myfeign/target/
+nativeconfigclient/nativeconfigclient.iml
+nativeconfigclient/src/test/
+nativeconfigclient/target/
+nativeconfigserver/nativeconfigserver.iml
+nativeconfigserver/src/test/
+nativeconfigserver/target/
+resttemplate/src/main/resources/
+resttemplate/src/test/
+resttemplate/target/
+ribbon/ribbon.iml
+ribbon/src/test/
+ribbon/target/
+springcloud.iml
+zuul/src/test/
+zuul/target/
+zuul/zuul.iml
+configserver/configserver.iml
+configserver/src/test

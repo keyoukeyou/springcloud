@@ -1,0 +1,18 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:keyoukeyou/springcloud.git
+          search-paths: configs
+          username: keyoukeyou
+          password: ke15303763726
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
