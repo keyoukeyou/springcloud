@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: configclient    #名称要与shared文件夹下的配置文件名称统一
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8762    #本地Config Server的访问路径
+      fail-fast: true   #设置客户端优先判断Config Server获取是否正常

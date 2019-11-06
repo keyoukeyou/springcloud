@@ -1,0 +1,12 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: gatewey
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    provider: /p/** #给服务提供者provider设置一个映射，/p/**是一个标识
